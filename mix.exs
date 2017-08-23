@@ -11,7 +11,7 @@ defmodule JMESPath.Mixfile do
         licenses: ["MIT"],
       },
       docs: [main: "JMESPath", extras: ["README.md"]],
-      version: "0.0.0",
+      version: "0.0.1",
       elixir: "~> 1.5",
       start_permanent: Mix.env == :prod,
       deps: deps()
